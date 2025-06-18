@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ravy - Clothes & Accessories</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.1em;
+      color: #ccc;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .about {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 30px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .product-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 30px;
+    }
+    footer {
+      background-color: #1e1e1e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    a {
+      color: #555;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ravy</h1>
+    <p>Elegant Clothes & Accessories</p>
+  </header>
+
+  <section class="hero">
+    <h2>Style That Speaks for You</h2>
+    <p>Discover elegant fashion, timeless pieces, and premium accessories that match your vibe.</p>
+  </section>
+
+  <section class="about">
+    <h2>About Ravy</h2>
+    <p>Ravy brings together premium fashion and quality accessories for those who value elegance and simplicity. Each piece is curated to elevate your everyday look.</p>
+  </section>
+
+  <section>
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300?text=Clothing+1" alt="Clothing 1">
+        <p>Classic White Shirt</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300?text=Accessory+1" alt="Accessory 1">
+        <p>Minimalist Leather Wallet</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250x300?text=Clothing+2" alt="Clothing 2">
+        <p>Modern Fit Trousers</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>📧 <a href="#">Email coming soon</a></p>
+    <p>📸 <a href="#">Instagram @ravyofficial</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ravy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
